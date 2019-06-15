@@ -1,0 +1,884 @@
+﻿body 
+{
+    margin :0;
+    height :100%;
+}
+
+.ProgressBarDiv
+{
+    background-image: url(../../Images/animated_loading.gif);
+    width:16px;
+    height:16px;
+    border:0px;
+    
+}
+
+.ProgressBarFont
+{
+	font-size: 12px;
+	color: black;
+	font-family: tahoma;
+}
+
+.admintable
+{
+   width: 90%;
+   background-color: #ededed;
+   border: solid 1px #CBCED4;
+}
+
+.admintable2
+{
+   width: 90%;
+   background-color: #ededed;
+   border: solid 1px #CBCED4;
+}
+
+
+.admincell
+{
+    border-color:#c0c0c0; 
+}
+
+.Package_Title
+{
+     background-color :#d1d1d1;
+     color :#3059A4 ;
+     text-align :center ;
+}
+
+.Reg_TD
+{ width :200px;
+    background-color :#f8f8f8;
+    color :Black;
+    border: solid 1px #CBCED4;
+    
+}
+.Reg_Label
+{ border: solid 1px #CBCED4;
+	background: #FFFFFF;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left:0px; 
+    color:#65738E; 
+    text-align :right ;
+    height :20px;
+    width :85px;
+    font-weight :bold ;
+    font-size :.9em;
+}
+
+.Reg_Label2
+{ border: solid 1px #CBCED4;
+	background: #ededed;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left:0px; 
+    color:#65738E; 
+    text-align :center   ;
+    height :20px;
+     font-weight :bold ;
+}
+
+
+.reg_Table
+{
+     width :90%;
+    background-color :#65738E;
+    height :10px;
+    color :White;
+    border-color :white ;
+    border :1px;
+    border-style :groove ;
+}
+.alert
+{
+	
+	position:relative;
+	background-image:url(../../Images/header_bg.png);
+	margin:2px 2px;
+	padding:2px 2px;
+	border:0px solid red;
+	background: #F2F2F2;
+	font-size:1.2em;
+	width :60%;
+	text-align:center ; 
+}
+.header{
+	height:90px; 
+	position:relative;
+	background-image:url(../../Images/header_bg.png);
+	background-repeat:repeat-x;
+	background-color:#F2F2F2;
+}
+.footer{
+	height:20px; 
+	position:relative;
+	background-image:url(../../Images/header_bg.png);
+	background-repeat:repeat-x;
+	background-color:#F2F2F2;
+}
+.textbox {
+	border: solid 1px #CBCED4;
+	background: #FFFFFF;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left:0px; 
+    color:#65738E; 
+    text-align :right ;
+    height :20px;
+    
+
+}
+.textbox2 {
+	border: solid 1px #CBCED4;
+	background: #ededed;
+	padding: 0px;
+	margin-right:1px; 
+    color:#65738E;
+    text-align:center ;  
+
+}
+
+.textbox4 {
+	border: solid 1px #CBCED4;
+	background: #ededed;
+	padding: 0px;
+	margin-right:1px; 
+    width:98%;
+    color:#65738E;
+    text-align:right ;
+    height :15px;  
+
+}
+
+.textbox3 {
+	border: solid 1px #CBCED4;
+	background: #ededed;
+	padding: 0px;
+	margin-right:1px; 
+    width:40%;
+    color:#65738E;
+    text-align:center ;  
+
+}
+
+.adminbutton
+{
+    font-size: 9pt;
+    font-family: tahoma;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align :center ;
+}
+.linkstyle
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #65738E;
+    font-family: verdana;
+    cursor :hand;
+     
+}
+.rightlabel
+{	background :#eaeef4 ;
+	Color : #333333 ;
+ 	font-size :.9em;
+	font-family :Tahoma ;
+	font-weight :normal ;
+	
+}
+.rightlabelAlt
+{
+	background :#ffffff;
+	font-size :.9em;
+	font-family :Tahoma ;
+	font-weight :normal ;
+	width :100%;
+	
+	
+}
+INPUT
+{
+   
+    text-align :right ;
+}
+
+
+.tableheader 
+{
+	
+	border: solid 0px #ededed;
+	background: #65738E;
+	padding: 1px;
+	margin-bottom: 0px;
+	margin-left:0px; 
+    color:#65738E; 
+    text-align :center ;
+    color :white;
+    height:15px; 
+    font-size:1.2em;
+
+}
+
+.tablecontent {
+	border: solid 1px #CBCED4;
+	background: #f5f5f5;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left:0px; 
+    color:#65738E; 
+    text-align :center ;
+    width :200px;
+
+}
+
+.tablecontent2 {
+	border: solid 1px #CBCED4;
+	background: #f5f5f5;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left:0px; 
+    color:#65738E; 
+    text-align :right ;
+    
+
+}
+
+.textbox3 {
+	border: solid 1px #CBCED4;
+	background: #f5f5f5;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left:0px; 
+    color:#65738E; 
+    text-align :center ;
+     font-weight :bold ;
+
+}
+.Menu
+{
+    clear:both;
+	margin:0px 0px;
+	padding:0px 0px;
+	border:2px solid #d5dde9;
+	background: #ededed;
+	font-size:1.0em;
+	width :20%;
+	text-align:center ; 
+    }
+    .maintable
+{
+    clear:both;
+	margin:0px 0px;
+	padding:0px 0px;
+	border:2px solid #d5dde9;
+	background: #ededed;
+	font-size:1.0em;
+	
+	text-align:center ; 
+    }
+    .Menu1
+    
+{
+    clear:both;
+	margin:1px 1px;
+	padding:1px 1px;
+	border:1px solid #65738E;
+	background: #ededed;
+	font-size:0.9em;
+	width :174px;
+	text-align:center ; 
+    }
+  .TitlrBar
+{
+    height:20px; 
+	
+	background-image:url(../../Images/header_bg.png);
+	background-repeat:repeat-x;
+	background-color:#eaeef4;
+	vertical-align:bottom ;
+	color :#65738E;
+	}
+      
+      .GridTitl
+    {border: solid 1px #65738E;
+	background: #d5dde9;
+	padding: 0px;
+	margin: 0px;
+    color:#65738E; 
+    cursor :hand;
+    font-size :x-large  ;
+    
+    }
+    
+    .Griditem
+    {
+   border: solid 1px #000000;
+	background: #ededed;
+	padding: 1px;
+	margin: 1px;
+    color:#65738E; 
+    
+    }
+    .MenuContentd
+{
+    text-align:center ; 
+	clear:both;
+	margin:0px 0px;
+	padding:0px 0px;
+	border:1px solid #999999;
+	background-color:#FFFFFF;
+	font-size:0.9em;
+	width:100%; 
+	height :100%;
+    }
+
+.MasterHeaderDiv
+{
+	border: solid 1px #CBCED4;
+	background: #ededed;
+	padding: 0px;
+	margin: 0px;
+    width:100%;
+    color:#65738E; 
+	height:100px; 
+}
+
+.MasterContent
+{
+    text-align:center ; 
+	clear:both;
+	margin:1px 1px;
+	padding:1px 1px;
+	border:1px solid #65738E;
+	background-color:#FFFFFF;
+	font-size:0.9em;
+	width:82%; 
+	height :469px ;
+	vertical-align :top ;
+	
+}
+.tdmaster
+{
+    border: solid 0px #CBCED4;
+	background: #ededed;
+	height :auto ;
+	 
+}
+
+#header{
+	height:70px; 
+	position:relative;
+	background-image:url(../../Images/header_bg.png);
+	background-repeat:repeat-x;
+	background-color:#F2F2F2;
+}
+
+#footer{
+	height:20px; 
+	position:relative;
+	background-image:url(../../Images/header_bg.png);
+	background-repeat:repeat-x;
+	background-color:#F2F2F2;
+}
+
+.loginstate
+{
+	height:20px; 
+	border: solid 1px #CBCED4;
+
+	}
+
+#logo{
+	position:absolute;
+	top:11px;
+	left:11px;
+}
+#banner{
+	margin:0 152px;
+	text-align:center;
+}
+#search{
+	position:absolute;
+	bottom:5px;
+	right:5px;
+}
+.sidebarcontainer{
+	margin:5px;
+	padding:6px;
+	border:1px solid #FFFFFF;
+	background-color:#EFEFEF;
+	font-size:smaller;
+}
+.menutitle
+{
+	border: solid 1px #65738E;
+	background: #65738E;
+	padding: 0px;
+	margin: 0px;
+    width :160px;
+    color:#f2f2f2; 
+    
+    cursor :hand;
+    text-align :center ;
+    font-weight :bold ;
+     vertical-align :middle ;
+    
+    }
+    .submitbutton
+    {
+		font-size :1.3em ;
+    }
+A
+{
+	text-decoration:none; 
+	font-family:tahoma;
+	color:#1C5E55 ;
+	font-size:12px ;
+
+	 
+}
+.GridLink
+{
+	font-size :1.1em;
+}
+
+.CellLabelProp
+{
+    background: lightsteelblue;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    color: #5d5d5d;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 9pt;
+}
+
+.CellTextProp {
+	background: #f5f5f5;
+	margin-bottom: 1px;
+	margin-left:1px; 
+    color:#000000; 
+    text-align :right ;
+    font-family :Tahoma;
+    font-size: 9pt ;
+}
+
+.WaterText {
+	color:#65738E; 
+    text-align :right ;
+    font-family :Tahoma;
+    font-size: 9pt ;
+ }
+ 
+ .FTextControl 
+ {
+	height :14px;
+	font-family :Tahoma;
+    font-size: 9pt ;
+ }
+ 
+ .FListControl 
+ {
+	height :20px;
+	font-family :Tahoma;
+    font-size: 9pt ;
+ }
+ 
+  .FRadioControl 
+ {
+	height :20px;
+	font-family :Tahoma;
+    font-size: 9pt ;
+ }
+ 
+  .FCheckBoxControl
+{
+	height: 20px;
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: green;
+}
+ 
+ 
+ .LabelNotes {
+	margin-bottom: 1px;
+	margin-left:1px; 
+    color:#65738E; 
+    text-align :right ;
+    font-family :Tahoma;
+    font-size: 8pt ;
+}
+
+.FormInsideTitle
+{
+    color:Maroon; 
+    font-family :Tahoma;
+    font-size: 9pt ;
+    
+    }
+
+.MainScreen
+{
+	font-size: 11px;
+	color: gray;
+	font-family: tahoma;
+	line-height: 20px;
+	}
+	
+	.NormalFont
+{
+	font-size: 11px;
+	color: gray;
+	font-family: tahoma;
+	line-height: 20px;
+	}
+	
+.Err
+{
+	font-size: 11px;
+	color: red;
+	font-family: tahoma;
+	line-height: 20px;
+	}
+	
+	
+.CellLabelAdmin
+{
+    background: lightsteelblue;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    color: #5d5d5d;
+    font-family: Tahoma;
+    font-size: 9pt;
+}
+
+.GrayHint
+{
+    margin-bottom: 1px;
+    margin-left: 1px;
+    font-family: Tahoma;
+    font-size: 9pt;
+}
+.Hint
+{
+    margin-bottom: 1px;
+    margin-left: 1px;
+    font-family: Tahoma;
+    font-size: 9pt;
+    color: #5d5d5d;
+}
+
+/* Billing System Style Sheet */
+
+.label
+{
+	font-size: 14pt;
+	background: white;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	color: #000080;
+	text-align: right ;
+	font-family: Arial;
+	
+}
+.label span
+{
+	height: 1px;
+	background: #FFFFFF;
+}
+
+TABLE.data
+{
+	border-right: #c6ccce 3px solid;
+	border-top: #c6ccce 3px solid;
+	margin: 0px 0px 20px;
+	border-left: #c6ccce 3px solid;
+	border-bottom: #c6ccce 3px solid;
+	border-collapse: collapse;
+}
+TABLE.plus_font
+{
+    FONT-SIZE: 14px;
+    LINE-HEIGHT: 1.6em
+}
+TABLE.data TH
+{
+    BORDER-RIGHT: #c2c2c2 1px solid;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #7f943a 1px solid;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 4px;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: #c2c2c2 1px solid;
+    font-size: 13.5pt;
+}
+TABLE.data TR.header
+{
+	background: url(images/bg_button_gray.gif) #f0f0f0 repeat-x 50% top;
+	color: #000080;
+	font-size:13pt;
+	font-family:Arabic Transparent ;
+	font-weight:normal 
+}
+TABLE.data TH.on
+{
+    BORDER-RIGHT: #6693c0 1px solid;
+    BACKGROUND: url(images/bg_button_blue.gif) #86baed repeat-x 50% top;
+    BORDER-BOTTOM: #6693c0 1px solid;
+    font-size: 14px;
+}
+TABLE.data TH.right
+{
+    TEXT-ALIGN: right;
+    font-size: 16px;
+    font-weight: bold ;
+}
+TABLE.data TD.right
+{
+    TEXT-ALIGN: right;
+    font-size: 16px;
+    font-weight: bold ;
+}
+TABLE.data TH.center
+{
+    font-size: 14pt;
+    TEXT-ALIGN: center;
+    font-weight: bold ;
+}
+TABLE.data TD.center
+{
+    TEXT-ALIGN: center;
+    font-size: 14pt;
+    font-weight: normal ;
+}
+
+TR.title TD
+{
+	background: #FFFFFF;
+	color: #0D5C9F;
+	border-bottom: #c6ccce 1px solid;
+	font-weight: normal ;
+	font-size:12pt;
+}
+TR.title H2
+{
+    MARGIN: 0px
+}
+TR.title P
+{
+    MARGIN: 0px
+}
+TR.action TD
+{
+	border-top: #c6ccce 1px solid;
+	background: #FFFFFF;
+	border-bottom: #7f943a 1px solid;
+	font-weight: normal;
+	font-size:14pt;
+	font-family:Arabic Transparent
+}
+TABLE.data TD
+{
+    BORDER-BOTTOM: #eee 1px solid;
+    font-size: 12pt;
+}
+TR.shaded
+{
+    BACKGROUND: #f7f7f7;
+}
+TR.due
+{
+    BACKGROUND: #eebebe
+}
+TABLE.data TD
+{
+    PADDING-RIGHT: 4px;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 4px;  /*to update the values of reapeater */
+    VERTICAL-ALIGN: top;
+    PADDING-TOP: 4px;
+    font-size: 13pt;
+    font-weight:normal  ;
+    font-family:Arabic Transparent ;
+}
+TABLE.data TD.heard
+{
+    VERTICAL-ALIGN: middle;
+    WIDTH: 20px;
+    TEXT-ALIGN: center;
+    font-size: 16pt;
+}
+TABLE.data TH.heard
+{
+    font-size: 14pt;
+    VERTICAL-ALIGN: middle;
+    WIDTH: 20px;
+    TEXT-ALIGN: center
+}
+TABLE.data A.block
+{
+    DISPLAY: block;
+    POSITION: relative
+}
+TABLE.data TH A:link
+{
+    font-size: 14pt;
+    DISPLAY: block;
+    COLOR: #000;
+    POSITION: relative
+}
+TABLE.data TH A:visited
+{
+    DISPLAY: block;
+    COLOR: #000;
+    POSITION: relative
+}
+TABLE.data TH A:hover
+{
+    font-size: 14px;
+    COLOR: #c46709;
+    POSITION: relative
+}
+.margins
+{
+    MARGIN: 0px 0px 2px
+}
+TABLE.align_items TD
+{
+    PADDING-RIGHT: 4px;
+    PADDING-LEFT: 3px;
+    PADDING-BOTTOM: 5px;
+    VERTICAL-ALIGN: top;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #eee 1px solid;
+    TEXT-ALIGN: left
+}
+TABLE.call_features TD.space
+{
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+TABLE.call_features TD.space P
+{
+    MARGIN: 0px
+}
+TABLE.call_features P
+{
+    FONT-SIZE: 1em;
+    LINE-HEIGHT: 1.4em
+}
+TABLE.align_items
+{
+    BORDER-RIGHT: #c0d381 3px solid;
+    BORDER-TOP: #c0d381 3px solid;
+    FONT-SIZE: 1.2em;
+    MARGIN: 0px 0px 20px;
+    BORDER-LEFT: #c0d381 3px solid;
+    LINE-HEIGHT: 1.6em;
+    BORDER-BOTTOM: #c0d381 3px solid;
+    BORDER-COLLAPSE: collapse
+}
+TABLE.align_items H3
+{
+    FONT-SIZE: 1.2em;
+    MARGIN: 0px 0px 4px
+}
+TABLE.no_borders TD
+{
+    BORDER-RIGHT: medium none;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: medium none;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    VERTICAL-ALIGN: top;
+    BORDER-LEFT: medium none;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: medium none;
+    TEXT-ALIGN: left
+}
+TABLE.no_borders TD.field_label
+{
+	
+    PADDING-RIGHT: 4px;
+    TEXT-ALIGN: right
+}
+.label span
+{
+	height: 1px;
+	background: #FFFFFF;
+}
+.pages a, .pages span
+{
+	display: block;
+	float: right;
+	padding: 0.2em 0.5em;
+	margin-right: 0.3em;
+	border: 1px solid #lightsteelblue;
+	background: #fff;
+	color: #000080;
+}
+
+.pages span.ellipsis {
+    border: none;
+    background: none;
+}
+
+.pages span.current
+{
+	border: 1px solid #c6ccce;
+	font-weight: bold;
+	background: #f7f9f9;
+	color: #7dc1fa;
+}
+
+.pages a {
+    border: 1px solid #c6ccce;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    border-color: #06c;
+}
+
+.pages a.nextprev, .pages span.nextprev {
+    font-weight: bold;
+}
+.pages a.nextprev_r {
+    font-weight: bold;
+    float:right;
+}
+
+.pages span.nextprev {
+    color: #666;
+}
+
+.pages span.nextprev {
+        border: 1px solid #ddd;
+}
+.pages span.nextprev_r {
+        border: 1px solid #ddd;
+        color: #014f9f;
+        float:right;
+}
+.tip
+{
+    BORDER-RIGHT: #666666 1px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: #666666 1px solid;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    BORDER-LEFT: #666666 1px solid;
+    WIDTH: 270px;
+    COLOR: #333333;
+    PADDING-TOP: 10px;
+    BORDER-BOTTOM: #666666 1px solid;
+    BACKGROUND-COLOR: #ffffcc;
+}
+
+/* End of Billing System Style Sheet*/

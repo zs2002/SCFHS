@@ -1,0 +1,269 @@
+﻿ p, h1, form, button{border:0; margin:0; padding:0;}
+        .spacer{clear:both; height:1px;}
+    .myform
+    {
+        margin:0;
+        width:550px;
+        padding:14px;
+    }   
+    #stylized
+    {
+        border:solid 2px #b7ddf2;
+        background:#ebf4fb;
+    }
+    #stylized h1
+    {
+        font-size:18px;
+        font-weight:bold;
+        margin-bottom:8px;
+    }
+    #stylized p
+    {
+        font-size:14px;
+        color:#666666;
+        margin-bottom:20px;
+        border-bottom:solid 1px #b7ddf2;
+        padding-bottom:10px;
+    }
+    #stylized label
+    {
+        display:block;
+        font-weight:bold;
+        text-align:right;
+        width:150px;
+        float:right
+    }
+    #stylized .small
+    {
+        color:#666666;
+        display:block;
+        font-size:11px;
+        font-weight:normal;
+        text-align:right;
+        width:150px;
+    }
+    #stylized input
+    {
+  
+        font-size:12px;
+        padding:4px 2px;
+        border:solid 1px #aacfe4;
+        width:200px;
+        margin:2px 0 10px 10px;
+    }
+    .ma
+    {
+         font-size:12px;
+        padding:4px 2px;
+        border:solid 1px #aacfe4;
+        width:20px;
+        margin:2px 0 10px 10px;
+        border:0px;
+    }
+   #stylized .btnSubmit 
+    {
+        clear:left;
+        float:left;
+        width:125px;
+        height:31px;
+        background:#666666 url(images/button.png) ;
+        background-repeat:no-repeat;
+        text-align:center;
+        color:#ffffff;
+        font-size:12px;
+        font-weight:bold;
+        
+        
+    }
+    abbr
+    {
+            color:Red;
+            margin-left:5px;
+     }
+     .chkBoxAgreement
+     {
+         width:20px;
+         margin-right:50px;
+         border:0;
+      
+     }
+   .TextAlignedCenter
+   {
+       text-align:center;
+   }
+
+   .LoginListTotalService
+   {
+        list-style-image:url(icons/web_16.ico); 
+   }
+   
+   .LoginListAdvnaceService
+   {
+       
+       list-style-image:url(icons/adfav_16.ico);
+       
+   }
+   .LoginListEasyOfAccess
+   {
+       
+       list-style-image:url(icons/ntwrk_16.ico);
+       
+   }
+   
+   #LoginList
+   {
+       font-size:16px;
+   }
+   
+   .altrowstyle 
+{
+    background-color: #edf5ff;
+}
+
+.headerstyle th 
+{
+    background: url(images/sprite.png) repeat-x 0px 0px;
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 4px 5px 4px 10px;
+    text-align: center;
+    vertical-align: bottom;
+}  
+
+
+
+.footerstyle  
+{
+    background: url(images/sprite.png) repeat-x 0px 0px;
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 4px 5px 4px 10px;
+    text-align: center;
+    vertical-align: bottom;
+    height:30px; 
+    font-weight:bold ; 
+}  
+
+.headerstyle th a
+{
+    font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+    color: #000;
+	display: block;
+    padding-right: 10px;
+}    
+
+.rowstyle .sortaltrow, .altrowstyle .sortaltrow 
+{
+    background-color: #edf5ff;
+}
+
+.rowstyle .sortrow, .altrowstyle .sortrow 
+{
+    background-color: #dbeaff;
+}
+
+.rowstyle td, .altrowstyle td 
+{
+    padding: 4px 10px 4px 10px;
+    border-right: solid 1px #cbcbcb;
+}
+
+.headerstyle .sortascheader 
+{
+    background: url(Images/sprite.png) repeat-x 0px -100px;
+}
+
+.headerstyle .sortascheader a 
+{
+    background: url(Images/dt-arrow-up.png) no-repeat right 50%;
+} 
+
+.headerstyle .sortdescheader 
+{
+    background: url(Images/sprite.png) repeat-x 0px -100px;
+}   
+
+.headerstyle .sortdescheader a 
+{
+    background: url(Images/dt-arrow-dn.png) no-repeat right 50%;
+} 
+.detail
+{
+	font-family:lucida grande,arial,helvetica,sans-serif;
+	font-size:11px;
+	background-color:#fff;
+	border:solid 2px #000;
+	padding:4px;
+}
+.detail .footer
+{
+	text-align:right;
+	padding:8px;
+}
+
+
+/* table style */
+.detailgrid
+{
+	border:solid 1px #ad9e87;
+}
+
+/* cell styles */
+.detailgrid td
+{
+	cursor:default;
+	height:20px;
+    color:#000;
+	padding:2px 8px;
+	border-right-style:solid;
+	border-right-width:1px;
+    border-right-color:#f2e8da;		
+	border-bottom-style:solid;
+	border-bottom-width:1px;	
+    border-bottom-color:#f2e8da;	
+}
+
+.amenu
+{
+	
+text-decoration:none; 
+	font-family:david ;
+	color:#DFE8F0 ;
+	font-size:16px ;	
+	margin-right :0px;
+	font-weight :bold ;
+
+}
+
+
+
+.amenu2
+{
+	
+text-decoration:none; 
+	font-family:Times New Roman (Arabic) ;
+	color:#000030 ;
+	font-size:16px ;	
+	margin-right :0px;
+	font-weight :bold ;
+
+}
+
+
+.amenu3
+{
+	
+text-decoration:none; 
+	font-family:Times New Roman (Arabic) ;
+	color:#000030 ;
+	font-size:14px ;	
+	margin-right :0px;
+	
+
+}
