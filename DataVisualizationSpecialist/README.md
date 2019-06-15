@@ -1,5 +1,6 @@
 ## Please use the link to connect to the dashboard
-https://public.tableau.com/views/SCFHS/AttritionBoard?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link
+https://public.tableau.com/views/AttritionDimInfluencesBoard/AttritionBoard?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link
+https://public.tableau.com/views/RDSalesworkingHours/RDSales?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link
 
 Assumptions:
 * Age => the higher the better (positive influence)
